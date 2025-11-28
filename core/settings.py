@@ -89,20 +89,30 @@ WSGI_APPLICATION = 'core.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.mysql",
+#         "NAME": "ayati_core",      # create this DB in MySQL
+#         "USER": "root",
+#         "PASSWORD": "ayati",
+#         "HOST": "127.0.0.1",
+#         "PORT": "3306",
+#         "OPTIONS": {
+#             "charset": "utf8mb4",
+#         },
+#     }
+# }
+
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": "ayati_core",      # create this DB in MySQL
-        "USER": "root",
-        "PASSWORD": "ayati",
-        "HOST": "127.0.0.1",
+        "NAME": "core_ayati",
+        "USER": "ayati",
+        "PASSWORD": "ayati123",
+        "HOST": "localhost",
         "PORT": "3306",
-        "OPTIONS": {
-            "charset": "utf8mb4",
-        },
     }
 }
-
 # DATABASES = {
 #     "default": {
 #         "ENGINE": "django.db.backends.mysql",

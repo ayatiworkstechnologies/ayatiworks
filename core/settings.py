@@ -104,15 +104,16 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # }
 
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.mysql",
-        "NAME": "core_ayati",
-        "USER": "ayati",
-        "PASSWORD": "ayati123",
-        "HOST": "localhost",
-        "PORT": "3306",
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'ayatiworks_db',
+        'USER': 'ayatiuser',
+        'PASSWORD': 'ayati123',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
+
 # DATABASES = {
 #     "default": {
 #         "ENGINE": "django.db.backends.mysql",
